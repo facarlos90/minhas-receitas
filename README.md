@@ -2,7 +2,7 @@
 
 Site destinado a catalogar as minhas receitas pessoais.
 
-
+![](https://github.com/facarlos90/minhas-receitas/blob/main/banner.png?raw=true)
 
 ## Detalhes do projeto
 
