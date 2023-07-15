@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -64,5 +65,59 @@
         <p class="banner__texto">Encontre em nossa estante a receita que você precisa para sua próxima refeição!</p>
         <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima receita?">
     </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Novas Receitas</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./assets/capa-receitas/charcutaria.svg" alt="Receitas de Charcutaria"></div>
+                <div class="swiper-slide"><img src="./assets/capa-receitas/leites-derivados.svg" alt="Receitas de Leites e Derivados de leite"></div>
+                <div class="swiper-slide"><img src="./assets/capa-receitas/molhos.svg" alt="Receitas de Molhos"></div>
+                <div class="swiper-slide"><img src="./assets/capa-receitas/doces.svg" alt="Receitas de Sobremesas"></div>
+                <div class="swiper-slide"><img src="./assets/capa-receitas/massas.svg" alt="Receitas de Massas"></div>
+                <div class="swiper-slide"><img src="./assets/capa-receitas/bebidas.svg" alt="Receitas de Sucos e Drinks"></div>
+            </div>
+  
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="card">
+            <div class="card__descricao">
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+                    <h2 class="descricao__titulo-categoria">Queijos</h2>
+                    <p class="descricao__texto">Faça seus próprios queijos caseiros</p>
+                </div>
+                <img src="./assets/capa-receitas/Queijos.svg" class="descricao__imagem" alt="Receitas de Queijos">
+            </div>
+            <div class="card__botoes">
+                <ul class="botoes">
+                    <li class="botoes__item"><img src="./assets/icones/Favoritos.svg" alt="Favoritar categoria"></li>
+                    <li class="botoes__item"><img src="./assets/icones/Sacola.svg" alt="Adicionar a sacola"></li>
+                </ul>
+                <a href="#" class="botoes__ancora">Saiba mais</a>
+
+            </div>
+        </div>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+        });
+    </script>
+
 </body>
 </html>
