@@ -74,12 +74,12 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide"><img src="./assets/capa-receitas/charcutaria.svg" alt="Receitas de Charcutaria"></div>
-                <div class="swiper-slide"><img src="./assets/capa-receitas/leites-derivados.svg" alt="Receitas de Leites e Derivados de leite"></div>
-                <div class="swiper-slide"><img src="./assets/capa-receitas/molhos.svg" alt="Receitas de Molhos"></div>
                 <div class="swiper-slide"><img src="./assets/capa-receitas/doces.svg" alt="Receitas de Sobremesas"></div>
                 <div class="swiper-slide"><img src="./assets/capa-receitas/massas.svg" alt="Receitas de Massas"></div>
                 <div class="swiper-slide"><img src="./assets/capa-receitas/bebidas.svg" alt="Receitas de Sucos e Drinks"></div>
+                <div class="swiper-slide"><img src="./assets/capa-receitas/charcutaria.svg" alt="Receitas de Charcutaria"></div>
+                <div class="swiper-slide"><img src="./assets/capa-receitas/leites-derivados.svg" alt="Receitas de Leites e Derivados de leite"></div>
+                <div class="swiper-slide"><img src="./assets/capa-receitas/molhos.svg" alt="Receitas de Molhos"></div>
             </div>
   
             <!-- If we need navigation buttons -->
@@ -105,8 +105,87 @@
 
             </div>
         </div>
-
     </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Mais visitadas</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./assets/capa-receitas/carnes.svg" alt="Receitas com carnes vermelhas"></div>
+                <div class="swiper-slide"><img src="./assets/capa-receitas/aves.svg" alt="Receitas com carnes brancas de aves"></div>
+                <div class="swiper-slide"><img src="./assets/capa-receitas/frutos-mar.svg" alt="Receitas de frutos do mar"></div>
+                <div class="swiper-slide"><img src="./assets/capa-receitas/saladas.svg" alt="Receitas de Saladas"></div>
+                <div class="swiper-slide"><img src="./assets/capa-receitas/leites-derivados.svg" alt="Receitas de Leites e seus derivados"></div>
+                <div class="swiper-slide"><img src="./assets/capa-receitas/charcutaria.svg" alt="Receitas de embutidos"></div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="card">
+            <!-- 1º linha -->
+            <div class="card__descricao">
+                <!-- 1º coluna -->
+                <div class="descricao">
+                    <img src="./assets/icones/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+                    <h3 class="descricao__titulo">Sobre o Autor</h3>
+                    <h2 class="descricao__titulo-categoria">Fabio Carlos</h2>
+                    <p class="descricao__texto">Técnico em Cozinha, Cozinheiro Profissional e especialista em massas e charcutaria</p>
+                </div>
+                <!-- 2º coluna -->
+                <img src="./assets/perfil.png" class="descricao__imagem">
+            </div>
+
+            <!-- 2º linha -->
+            <div class="card__botoes">
+                <!-- 1º coluna -->
+                <ul class="botoes">
+                    <li class="botoes__item"><img src="./assets/icones/Favoritos.svg" alt="Favoritar livro"></li>
+                    <li class="botoes__item"><img src="./assets/icones/Sacola.svg" alt="Adicionar no carrinho de compras"></li>
+                </ul>
+                <!-- 2º coluna -->
+                <a href="#" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+    <section class="topicos">
+        <h2 class="topicos__titulo">tópicos visitados recentemente</h2>
+        <ul class="topicos__lista">
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Charcutaria</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Aves</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Carnes</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Doces</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Bebidas</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Frutos do Mar</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Leites e Derivados</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Molhos</a>
+            </li>
+        </ul>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
