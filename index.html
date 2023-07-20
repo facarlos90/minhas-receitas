@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -51,11 +52,54 @@
                     <a href="#" class="lista-menu__link">Massas</a>
                 </li>
             </ul>
-
             <img src="./assets/icones/logo.svg" alt="Logo Paulada" class="container__imagem">
+            <h1 class="container__titulo"><b class="container__titulo--negrito">Paulada</b>Receitas</h1>
         </div>
+
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+            <label for="opcoes-menu">
+                <li class="opcoes__item">Categorias</li>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Aves</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Bebidas</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Carnes</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Doces</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Frutos do Mar</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Molhos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Saladas</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Charcutaria</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Leites e Derivados</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Massas</a>
+                </li>
+            </ul>
+            
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Minhas Receitas</a></li>
+        </ul>
+            
         <div class="container">
-            <a href="#"><img src="./assets/icones/Favoritos.svg" alt="Favoritos" class="container__imagem"></a>
+            <a href="#"><img src="./assets/icones/Favoritos.svg" alt="Favoritos" class="container__imagem container__imagem-transparente"></a>
             <a href="#"><img src="./assets/icones/Sacola.svg" alt="Sacola" class="container__imagem"></a>
             <a href="#"><img src="./assets/icones/Usuario.svg" alt="Usuário" class="container__imagem"></a>
         </div>
@@ -186,13 +230,48 @@
         </ul>
     </section>
     <section class="contato">
-        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-        <p class="contato__texto">Atualizações de receitas, novas receitas, promoções e outros</p>
+        <div class="contato__descricao">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de receitas, novas receitas, promoções e outros</p>
+        </div>
         <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
     </section>
     <hr/>
     <footer class="rodape">
         <h2 class="rodape__titulo">Empório Paulada</h2>
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">Lojas</li>
+            <li class="lista-rodape__item">
+                <img src="./assets/logos/paulada.svg" alt="Lodo da Loja Empório Paulada">
+                <a href="#" class="lista-rodape__link">Empório Paulada</a>
+            </li>
+        </ul>
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">Redes Sociais</li>
+            <li class="lista-rodape__item">
+                <img src="./assets/logos/instagram.svg" alt="Lodo do instagram da Loja">
+                <a href="#" class="lista-rodape__link">Instagram</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="./assets/logos/facebook.svg" alt="Logo do Facebook da Loja">
+                <a href="#" class="lista-rodape__link">Facebook</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="./assets/logos/youtube.svg" alt="Lodo do Youtube da Loja">
+                <a href="#" class="lista-rodape__link">Youtube</a>
+            </li>
+        </ul>
+        <ul class="lista-rodape">
+            <li class="lista-rodape__titulo">Parceiros</li>
+            <li class="lista-rodape__item">
+                <img src="./assets/logos/natu.svg" alt="Lodo da Empório Natu">
+                <a href="#" class="lista-rodape__link">Empório Natu</a>
+            </li>
+            <li class="lista-rodape__item">
+                <img src="./assets/logos/dvie.svg" alt="Lodo do D'Vie Congelados">
+                <a href="#" class="lista-rodape__link">D'Vie Congelados</a>
+            </li>
+        </ul>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
