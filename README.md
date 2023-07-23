@@ -2,7 +2,15 @@
 
 Site destinado a catalogar as minhas receitas pessoais.
 
-![](https://github.com/facarlos90/minhas-receitas/blob/main/banner.png?raw=true)
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Minhas Receitas**
+| :label: Tecnologias | html, css
+| :rocket: URL         | https://github.com/facarlos90/minhas-receitas.git
+| :fire: Desafio     | 
+
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://github.com/facarlos90/minhas-receitas/blob/main/banner.png?raw=true#vitrinedev)
 
 ## Detalhes do projeto
 
@@ -30,7 +38,7 @@ Após baixar o projeto, você pode abrir o arquivo com algum navegador. Para iss
 
 Seu navegador padrão deve abrir e mostrar a página.
 
-Ou acessando diretamente pelo link do Vercel.
+Ou acessando diretamente pelo link do Github Pages.
 
 # Autor
 
